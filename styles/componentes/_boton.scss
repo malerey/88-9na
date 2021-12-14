@@ -1,0 +1,8 @@
+
+.boton {
+  @include hacer-boton($color: red, $color-background: black)
+} 
+
+.boton-secundario {
+  @include hacer-boton($color: blue, $color-background: lightblue)
+}

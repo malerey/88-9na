@@ -1,0 +1,10 @@
+@mixin hacer-boton($color, $color-background) {
+  width: 100px;
+  height: 40px;
+  font-family: Tahoma;
+  padding: 10px;
+  color: $color;
+  background-color: $color-background;
+  border: none;
+  border-radius: 10px;
+}
